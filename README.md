@@ -7,7 +7,7 @@
 </p>
 
 #### _Links_
-* <a href="[https://f3n215.github.io/sculpt-a-password/](https://f3n215.github.io/sculpt-a-password/)">Get Sculpting!</a>
+* <a href="https://f3n215.github.io/sculpt-a-password">Get Sculpting!</a>
 * <a href="https://github.com/F3N215/sculpt-a-password">Github</a>
 
 
