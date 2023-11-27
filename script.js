@@ -10,11 +10,11 @@ const symbol = "@#$%^&*()_+|}{[]></-=";
 const allChars = upperCase + lowerCase + number + symbol;
 
 function createPassword(){
-let password = "";
-    password += upperCase[Math.floor(Math.random() * upperCase.length)];
-    password += upperCase[Math.floor(Math.random() * upperCase.length)];
-    password += upperCase[Math.floor(Math.random() * number.length)];
-    password += upperCase[Math.floor(Math.random() * symbol.length)];
+let password = ""; // Use constants established above to create more randomness/greater pool of characters from each string
+    password += upperCase[Math.floor(Math.random() * upperCase.length)]; // 26 characters 
+    password += lowerCase[Math.floor(Math.random() * lowerCase.length)]; // 26 characters
+    password += number[Math.floor(Math.random() * number.length)]; // 10 characters
+    password += symbol[Math.floor(Math.random() * symbol.length)]; // 22 characters
 
     while(length > password.length){
         password += allChars[Math.floor(Math.random() * allChars.length)];       
